@@ -4,11 +4,14 @@
   "description": "",
   "main": "sql.spec.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "expect": "^25.1.0"
+  },
+  "dependencies": {
+    "mocha": "^7.1.1"
   }
 }
